@@ -1,0 +1,513 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    /* border: 1px solid white; */
+}   
+.main1{
+    height: 1200px;
+    width: 100%;
+    border: 1px solid black;
+}
+.menu{
+    height: 105vh;
+    width:15%;
+    border: 1px solid #0a1739;
+    position: fixed;
+    background-color: #081027;
+    padding: 20px;
+    
+
+}
+
+.mainlogo{
+    height: 100px; 
+    width: 100%;
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+.font{
+   color: white;
+    text-align: center; 
+    font-size: 20px;
+    margin-left: 5px;
+}
+.input{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid red; */
+    background-color: #0a1739;
+    border: 0.1px solid gray;
+    border-left: none;
+   
+}
+::placeholder{
+    font-size: 17px;
+    /* color: #fff; */
+}
+.logosearch{
+    height: 40px;
+    width: 20%;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   background-color: #0a1739;
+   border: 0.1px solid gray;
+   border-right: none;
+    
+}
+
+.search1{
+    /* border: 2px solid white; */
+}
+
+.border{
+    border: 2px solid white;
+}
+
+.hover1{
+    width: 80%;
+}
+
+
+.hover1 input{
+    outline: none;
+    color: #fff;
+    width: 100%;
+}
+.list{
+    color: gray;
+    padding-top: 50px;
+    border-bottom: 0.1px solid rgb(100, 100, 100);
+
+}
+ul,li{
+    list-style: none;
+    display: flex;
+    flex-direction: column;                                                                       ;
+    gap: 13px;
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid white; */
+    height: 30px;
+    padding-left: 30px;
+    border-radius: 30px;
+    padding-top: 3px;
+}
+.list1{
+    color: antiquewhite;
+    padding-top: 30px;
+}
+.user{
+    height: 30px;
+    width: 30px;
+    border-radius:45px;
+    border: 1px solid white;
+    background-color:#d731ff;
+    /* display: inline; */
+} 
+
+.img3{
+
+
+height: 50px;
+ width: 80%;
+  /* border: 1px solid white; */
+   display: flex;
+}
+
+
+
+.txt3{
+
+
+height: 45px; 
+width: 25%;
+ border: 1px solid rgb(14, 13, 13);
+  border-radius: 45px;
+   background-color: #d731ff;
+  overflow: hidden;
+
+
+}
+.btn{
+    height: 50px;
+    width: 100%;
+    /* border: 1px solid white; */
+    background-color: #cc3cfe;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.nav{
+   
+    height: 2000px;
+    width:85%;
+    /* border: 1px solid salmon; */
+    background-color: #070e26;
+    margin-left: 15%;
+    
+}
+.nav1{
+   
+    height: 150px;
+    width:100%;
+    /* border: 1px solid salmon; */
+    background-color: #070e26;
+    padding: 55px 20px;
+    color: white;
+    font-weight: bold;
+   display: flex;
+    /* align-items: center; */
+    justify-content:space-between;
+
+}
+.img4{
+
+
+    height: 30px;
+     width: 100%;
+      /* border: 1px solid white; */
+      border-radius: 90px;
+       margin-top: -8px;
+    }
+    .txt4{
+
+
+        height: 45px; 
+        width: 50%;
+         /* border: 1px solid rgb(14, 13, 13); */
+          border-radius: 90px;
+           background-color: #d731ff;
+          overflow: hidden;
+        
+        
+        }
+
+.card{
+     
+    height: 200px; 
+    width: 100%;
+     /* border: 1px solid rgb(220, 51, 51);    */
+     display: flex;
+     align-items: center;
+     justify-content:space-around;
+}
+.img5{
+      
+    height: 130px; 
+    width: 22%;
+    /* border: 1px solid #d2d6e0;    */
+    border-radius: 15px;
+    background-color:#0a1739 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.upper_card{
+    /* border: 1px solid white; */
+    height: 20%;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    /* border: 1px solid white; */
+    width: 45%;
+    height: 100%;
+    display: flex;
+}
+
+.heart{
+    /* border: 1px solid white; */
+    width: 20%;
+    height: 100%;
+}
+
+.save_products{
+    /* border: 1px solid white; */
+    width: 80%;
+    height: 80%;
+  
+}
+
+
+.save_products span{
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid black; */
+    color: white;
+ 
+}
+
+
+.dots{
+    /* border: 1px solid white; */
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* padding-bottom: 7px; */
+}
+
+
+.lower_card{
+    /* border: 1px solid white; */
+    height: 35%;
+    width: 90%;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.price{
+    /* border: 1px solid white; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.price h1{
+    color: white;
+}
+
+.percentage{
+    /* border: 1px solid white; */
+    width: 25%;
+    height: 50%;
+    display: flex;
+    background-color: #083741;
+}
+
+#percentage{
+    /* border: 1px solid white; */
+    width: 65%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#percentage span{
+    color: white;
+    font-size: 13px;
+    color: #31bc7e;
+}
+
+#arrow{
+    /* border: 1px solid white; */
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chart1{
+    height: 500px;
+    width: 40%;
+    border: 1px solid rgba(95, 94, 94, 0.315)  ;
+    border-radius:30px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 50px gray;
+}
+li:hover{
+ /* border-radius: 30px; */
+ background-color:#885294 ;
+ color: black;
+ /* height: 40px; */
+ /* display: flex; */
+
+ 
+}
+.btn:hover{
+    background-color: rgb(186, 117, 128);
+   
+}
+.calendar1{
+    height: 550px;
+    width: 100%;
+    border: 1px solid rgba(95, 94, 94, 0.315);
+    border-radius: 30px;
+}
+.mapmain{
+    height: 500px;
+    width: 100%;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.map{
+    height: 450px;
+    width: 50%;
+    border: 10px solid rgba(95, 94, 94, 0.315);
+    border-radius: 10px;
+}
+.cale{
+    height: 630px;
+     width: 100%;
+      margin-top: 30px; 
+      display: flex;
+       align-items: center;
+        justify-content: center; 
+}
+.flag{
+    display: flex;
+     align-items: center; 
+     justify-content: center;
+      gap: 25px; 
+}
+.cat{
+
+    height: 500px; 
+    width: 100%;
+     display: flex;
+      justify-content: space-around;
+    
+}
+#hame{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+   display: none;
+}
+.minicale{
+ width: 50%; 
+ height: 550px; 
+border:1px solid rgb(100, 100, 100);
+}
+@media screen and (max-width:425px) {
+        .menu{
+
+            display: none;
+            background-color: #0a1739;
+            width: 100%;
+            z-index: 999;
+            top: 50px;  
+
+          
+            
+        }
+     
+        .btn{
+            position: relative;
+            bottom: 40px;
+            height: 45px;
+        }
+
+        #chart{
+
+            display: block;
+
+        }
+
+        #chart3{
+
+            display: none;
+
+        }
+      
+        #cale , #caleandar{
+            display: block; 
+ 
+        }
+        .img5{
+            width: 95%;
+            height: 130px;
+            /* margin-top: 50px; */
+           
+        }
+    
+        .nav{
+            margin: 0;
+            width: 100%;
+            
+        }
+  
+        .nav1 h2{
+          
+            font-size: 15px;
+        }
+        .flag img{
+            display: none;
+        }
+        .flag{
+            gap: 13px;
+            height: 20px;
+        }
+        .nav1{
+            width: 100%;
+            height: 70px;
+            padding: 23px 20px;
+         
+            
+        }
+        .card{
+            flex-direction: column;
+            height: 450px;
+            gap: 20px;
+  
+        }
+        
+        .cat{
+            width: 100%;
+            margin-top: 15px;
+            flex-direction: column;
+            gap: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .chart1{
+            width: 90%;
+        }
+        .minicale{
+            width: 90%;
+            height: 480px;
+        }
+        .cale{
+            height: 450px;
+        }
+        .map{
+            width: 90%;
+        }
+        #hame{
+            display:block;
+          
+        }
+
+        ul, li{
+            font-size: 10px;
+        }
+
+        .cld-main {
+            width: 80%;
+            margin-top: 100px;
+        }
+        .mainlogo{
+            height: 60px;
+        }
+}
